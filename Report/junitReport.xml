@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="98.526">
+    <testcase classname="Hotel Booking" name="Home Page" time="98.242">
+        <failure message="Cannot locate element with text: MAST&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'RHARISHs-MacBook-Air.local', ip: '192.168.10.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.2.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user Get The Url......................................................passed
+When user Enter The UserDetails.............................................passed
+And user Fill The Booking Details...........................................passed
+Then user Verification Inputs...............................................failed
+And user Take The Screenshot................................................skipped
+Then user Log Out...........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MAST
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RHARISHs-MacBook-Air.local', ip: '192.168.10.84', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.BaseClassAdactin.BaseClassAd.selecttext(BaseClassAd.java:35)
+	at com.AdactinStepDef.AdactinStepDef.user_verification_inputs(AdactinStepDef.java:227)
+	at ✽.user Verification Inputs(file:///Users/r.harish/eclipse-workspace/Adacatin_Hotel/src/test/java/com/feature/adactin.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
